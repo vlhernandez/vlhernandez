@@ -1,14 +1,22 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="page">
 
-  <header class="post-header">
+  <!-- <header class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
-  </header>
+  </header> -->
 
-  <div class="post-content">
-    {{ content }}
+  <div class="flexbox">
+    {% if page.image %}
+      <div class="page-image col">
+        <img class="post-image" src="/img/{{ page.image }}"> <!-- display page specific image -->
+      </div>
+    {% endif %}
+    <div class="page-content col">
+      {{ content }}
+    </div>
   </div>
+
 
 </article>

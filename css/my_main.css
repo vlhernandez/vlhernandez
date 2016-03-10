@@ -10,7 +10,7 @@ body {
 }
 
 h2 {
-  font-size: 1.75em; /* 28px */
+  font-size: 1.5em; /* 28px */
   margin: 0;
 }
 
@@ -43,17 +43,24 @@ a:hover {
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 7%;
+  padding: 0 5%;
 }
 
+.page-content {
+  flex: 1;
+}
 
+img {
+  max-width: 100%;
+}
 
 /**********************************
   HEADER
 **********************************/
 header,
 .page-content {
-  margin: 5% auto 0;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 
 .logo {
@@ -113,10 +120,6 @@ nav a {
 /**********************************
   PAGE
 **********************************/
-/*.page-content {
-  margin: 7% auto;
-}*/
-
 .pagination {
   text-align: center;
   margin: 10% auto;
@@ -168,10 +171,27 @@ footer a {
 
 .site {
   display: flex;
-  min-height: 100vh;
+  min-height: 96vh;
   flex-direction: column;
 }
 
-.page-content {
+
+/**********************************
+  Flexbox
+**********************************/
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+.flexbox .col {
   flex: 1;
+  align-self: flex-end;
+}
+
+
+.col {
+  margin: 0 5px;
+  padding: 5% 0;
 }
