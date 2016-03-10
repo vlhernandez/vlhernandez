@@ -9,14 +9,13 @@ body {
   color: #222;
 }
 
-.wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
 h2 {
   font-size: 1.75em; /* 28px */
+  margin: 0;
+}
+
+ul {
+  padding: 0;
   margin: 0;
 }
 
@@ -41,12 +40,19 @@ a:hover {
   color: #40c4e0;
 }
 
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 7%;
+}
+
 
 
 /**********************************
   HEADER
 **********************************/
-header {
+header,
+.page-content {
   margin: 5% auto 0;
 }
 
@@ -107,9 +113,9 @@ nav a {
 /**********************************
   PAGE
 **********************************/
-.page-content {
+/*.page-content {
   margin: 7% auto;
-}
+}*/
 
 .pagination {
   text-align: center;
@@ -120,6 +126,12 @@ nav a {
 /**********************************
   POSTS
 **********************************/
+article .post-header .post-content,
+
+.post-list li {
+  margin-bottom: 6%;
+}
+
 .post-link,
 .post-title {
   font-weight:300;
@@ -133,7 +145,7 @@ nav a {
 .post-excerpt,
 .post-content {
   line-height: 1.5;
-  font-size: 1.25em;
+  font-size: 1.15em;
   margin-bottom: 10px;
 }
 
