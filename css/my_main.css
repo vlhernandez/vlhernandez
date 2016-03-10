@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1em;
+  color: #222;
 }
 
 .wrapper {
@@ -16,6 +17,7 @@ body {
 
 h2 {
   font-size: 1.75em; /* 28px */
+  margin: 0;
 }
 
 li {
@@ -59,25 +61,28 @@ header {
 }
 
 .tagline {
-  font-size: 1.438em;  /* 23px */
+  font-family: Lato;
+  font-size: 2em;  /* 23px */
   font-weight: 300;
   letter-spacing: .8px;
   text-align: center;
   margin: 5% auto;
-  color: #9c9c9c;
+  color: #848484;
 }
 
 /**********************************
   NAVIGATION
 **********************************/
-nav ul {
+nav ul,
+footer ul {
   margin: 0 auto;
   padding: 0;
   display: table;
   border-spacing: 33.333% 10px;
 }
 
-nav li {
+nav li,
+footer li {
   display: table-cell;
 }
 
@@ -108,6 +113,7 @@ nav a {
 
 .pagination {
   text-align: center;
+  margin: 10% auto;
 }
 
 
@@ -126,9 +132,9 @@ nav a {
 
 .post-excerpt,
 .post-content {
-  color: #444;
   line-height: 1.5;
   font-size: 1.25em;
+  margin-bottom: 10px;
 }
 
 
@@ -136,3 +142,10 @@ nav a {
 /**********************************
   FOOTER
 **********************************/
+footer a {
+  text-align: center;
+  font-size: 1.25em; /*20px*/
+  letter-spacing: 1.25px;
+  font-weight: 300;
+  padding: 15px 10px;
+}

@@ -6,27 +6,35 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}"></span><span class="username"><i class="icon ion-social-github"></i> {{ site.github_username }}</span></a>
+            <a href="https://github.com/{{ site.github_username }}">
+              <i class="icon ion-social-github"></i>
+            </a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">
-                <i class="icon ion-social-twitter"></i> {{ site.twitter_username }}
-              </span>
+              <i class="icon ion-social-twitter"></i>
             </a>
           </li>
           {% endif %}
+
+          {% if site.instagram_username %}
+          <li>
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+              <i class="icon ion-social-instagram-outline"></i>
+            </a>
+          </li>
+          {% endif %}
+         <li class="rss-subscribe">
+           <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+             <i class="icon ion-social-rss"></i>
+           </a>
+         </li>
         </ul>
       </div>
 
-     <p class="rss-subscribe">subscribe via
-       <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS
-         <i class="icon ion-social-rss"></i>
-       </a>
-     </p>
 
   </div>
 
