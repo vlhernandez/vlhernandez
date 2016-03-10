@@ -2,36 +2,31 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
+      <div>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}"></span><span class="username"><i class="icon ion-social-github"></i> {{ site.github_username }}</span></a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span class="username">
+                <i class="icon ion-social-twitter"></i> {{ site.twitter_username }}
+              </span>
+            </a>
           </li>
           {% endif %}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
+     <p class="rss-subscribe">subscribe via
+       <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS
+         <i class="icon ion-social-rss"></i>
+       </a>
+     </p>
 
   </div>
 
