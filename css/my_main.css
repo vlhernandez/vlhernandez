@@ -1,0 +1,132 @@
+/**********************************
+  GENERAL
+**********************************/
+body {
+  font-family: Muli, Garamond, "Times New Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+h2 {
+  font-size: 1.75em; /* 28px */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+   color: #444;
+}
+
+a:visited {
+   text-decoration: none;
+   color: #444;
+}
+
+a:hover {
+  color: #40c4e0;
+}
+
+
+
+/**********************************
+  HEADER
+**********************************/
+header {
+  margin: 5% auto 0;
+}
+
+.logo {
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.tagline {
+  font-size: 1.438em;  /* 23px */
+  font-weight: 300;
+  letter-spacing: .8px;
+  text-align: center;
+  margin: 5% auto;
+  color: #9c9c9c;
+}
+
+/**********************************
+  NAVIGATION
+**********************************/
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+  border-spacing: 33.333% 10px;
+}
+
+nav li {
+  display: table-cell;
+}
+
+nav a {
+  text-align: center;
+  font-size: .813em; /*13px*/
+  letter-spacing: 1.25px;
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+.nav-item-current {
+  border-bottom: solid 2px #40c4e0;
+}
+
+.nav-item-current a {
+  color: #9c9c9c;
+}
+
+
+
+/**********************************
+  PAGE
+**********************************/
+.page-content {
+  margin: 7% auto;
+}
+
+.pagination {
+  text-align: center;
+}
+
+
+/**********************************
+  POSTS
+**********************************/
+.post-link,
+.post-title {
+  font-weight:300;
+}
+
+.post-meta {
+  color: #9c9c9c;
+  font-size: .75em;
+}
+
+.post-excerpt,
+.post-content {
+  color: #444;
+  line-height: 1.5;
+  font-size: 1.25em;
+}

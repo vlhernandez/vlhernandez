@@ -1,0 +1,31 @@
+<!-- Capture and store a URL -->
+{% capture location %}{{ page.url | split:'/' }}{% endcapture %}
+
+<header class="site-header">
+
+  <div class="wrapper">
+      <a class="logo" href="{{ site.baseurl }}/">
+        <h1>
+          <img src="../img/mylogo.png" alt="Veronica Hernandez"></img>
+        </h1>
+      </a>
+      <p class="tagline" href="{{ site.baseurl }}/">{{ site.description }}</p>
+    <nav>
+      <ul>
+        {% for page in site.pages %}
+          <!-- Compare the page title to the URL -->
+          {% assign current = page.title | downcase %}
+          {% if page.title %}
+            <li {% if location == current %} class="nav-item nav-item-current" {% else %} class="nav-item" {% endif %}>
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | upcase }}</a>
+            </li>
+          {% endif %}
+
+        {% endfor %}
+      </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
