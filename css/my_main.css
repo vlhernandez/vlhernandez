@@ -161,3 +161,17 @@ footer a {
   font-weight: 300;
   padding: 15px 10px;
 }
+
+.icon {
+  color: #2290A7;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
