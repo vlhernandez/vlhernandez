@@ -15,6 +15,7 @@ twitter_username: vlhernandez_
 github_username: vlhernandez
 instagram_username: vlhernandez_
 paginate: 3
+# excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,13 @@
 /**********************************
   GENERAL
 **********************************/
+a.anchor {
+  display: block;
+  position: relative;
+  top: -99px;
+  visibility: hidden;
+}
+
 body {
   font-family: Muli, Garamond, "Times New Roman", sans-serif;
   margin: 0;

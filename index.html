@@ -2,47 +2,60 @@
 layout: default
 ---
 
-<!-- <div class="page"> -->
 
-  <!-- <h3 class="page-heading">Posts</h1> -->
-
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-
-        <span class="post-excerpt">{{ post.excerpt }}</span>
-
-      </li>
-    {% endfor %}
-  </ul>
-
-  {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-        {% else %}
-          <span>&laquo; Prev</span>
-        {% endif %}
-
-        {% for page in (1..paginator.total_pages) %}
-          {% if page == paginator.page %}
-            <em>{{ page }}</em>
-          {% elsif page == 1 %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-          {% else %}
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+<ul class="post-list">
+  {% for post in paginator.posts %}
+  <li>
+    <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+      <div class="Grid-cell">COLUMN 1 TEXT
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+          <span class="post-excerpt">{{ post.excerpt }}</span>
+          {% capture content_words %}
+            {{ post.content | number_of_words }}
+          {% endcapture %}
+          {% capture excerpt_words %}
+            {{ post.excerpt | number_of_words }}
+          {% endcapture %}
+          {% if excerpt_words != content_words %}
+            <p><a href="{{ post.url | prepend: site.baseurl }}/#read-more">[ Continue Reading ]</a></p>
           {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-        {% else %}
-          <span>Next &raquo;</span>
+      </div>
+      <div class="Grid-cell">COLUMN 2 PHOTO
+        {% if post.image %}
+          <img src="img/{{ post.image }}">
         {% endif %}
-    </div>
-  {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<!-- PAGINATION -->
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      {% else %}
+        <span>&laquo; Prev</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+  </div>
+{% endif %}
