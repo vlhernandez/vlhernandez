@@ -1,13 +1,6 @@
 /**********************************
   GENERAL
 **********************************/
-a.anchor {
-  display: block;
-  position: relative;
-  top: -99px;
-  visibility: hidden;
-}
-
 body {
   font-family: Muli, Garamond, "Times New Roman", sans-serif;
   margin: 0;
@@ -60,6 +53,15 @@ a:hover {
 img {
   max-width: 100%;
 }
+
+.btn {
+  background-color: white;
+  border: none;
+  margin-top: 0;
+  font-size: .8em;
+}
+
+
 
 /**********************************
   HEADER
@@ -180,25 +182,4 @@ footer a {
   display: flex;
   min-height: 96vh;
   flex-direction: column;
-}
-
-
-/**********************************
-  Flexbox
-**********************************/
-.flexbox {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-}
-.flexbox .col {
-  flex: 1;
-  align-self: flex-end;
-}
-
-
-.col {
-  margin: 0 5px;
-  padding: 5% 0;
 }

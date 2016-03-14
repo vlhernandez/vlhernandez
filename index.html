@@ -5,9 +5,8 @@ layout: default
 
 <ul class="post-list">
   {% for post in paginator.posts %}
-  <li>
-    <div class="Grid Grid--gutters Grid--full large-Grid--fit">
-      <div class="Grid-cell">COLUMN 1 TEXT
+  <li class="row">
+      <div class="primary col">
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
@@ -20,10 +19,10 @@ layout: default
             {{ post.excerpt | number_of_words }}
           {% endcapture %}
           {% if excerpt_words != content_words %}
-            <p><a href="{{ post.url | prepend: site.baseurl }}/#read-more">[ Continue Reading ]</a></p>
+            <span class="btn"><a href="{{ post.url | prepend: site.baseurl }}/#read-more">[ Continue Reading ]</a></span>
           {% endif %}
       </div>
-      <div class="Grid-cell">COLUMN 2 PHOTO
+      <div class="secondary col">
         {% if post.image %}
           <img src="img/{{ post.image }}">
         {% endif %}

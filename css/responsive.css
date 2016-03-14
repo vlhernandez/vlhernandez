@@ -1,0 +1,14 @@
+/* for mobile and tablets */
+.post-list,
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+/* for desktop */
+@media screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+    align-items: center;
+  }
+}
