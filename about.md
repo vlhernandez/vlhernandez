@@ -4,10 +4,10 @@ permalink: /about/
 image: me.jpg
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Howdy,my name is Veronica, I make things.
 
-You can find the source code for the Jekyll new theme at:
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I am an artist & developer who enjoys integrating the creative analog world of pencil and paper with the digital world. In addition to creating in the tech world, I enjoy sewing and dabble a bit with knitting.
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+This is my personal website where I intend to document all the projects I work on analog and digital.
+
+Above all, I find the greatest joy in making things.
