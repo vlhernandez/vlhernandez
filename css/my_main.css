@@ -114,7 +114,7 @@ footer li {
 
 nav a {
   text-align: center;
-  font-size: .813em; /*13px*/
+  font-size: .9em; /*13px*/
   letter-spacing: 1.25px;
   font-weight: 600;
   padding: 15px 10px;
@@ -139,6 +139,11 @@ nav a {
 }
 
 
+.page-image {
+  border-radius: 3px;
+}
+
+
 /**********************************
   POSTS
 **********************************/
@@ -150,7 +155,7 @@ article .post-content,
 .post-link,
 .post-title {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.15em;
 }
 
 .post-meta {
@@ -160,9 +165,10 @@ article .post-content,
 }
 
 .post-excerpt,
-.post-content {
+.post-content,
+.page-text {
   line-height: 1.5;
-  font-size: .9em;
+  font-size: 1.15em;
   margin-bottom: 10px;
 }
 

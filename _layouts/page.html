@@ -7,13 +7,13 @@ layout: default
     <h2 class="post-title">{{ page.title }}</h2>
   </header> -->
 
-  <div class="page-container">
+  <div class="page-container row">
     {% if page.image %}
-      <div class="page-image">
-        <img class="post-image" src="/img/{{ page.image }}"> <!-- display page specific image -->
+      <div class="page-image col">
+        <img class="page-image" src="/img/{{ page.image }}"> <!-- display page specific image -->
       </div>
     {% endif %}
-    <div class="page-content">
+    <div class="page-text col">
       {{ content }}
     </div>
   </div>

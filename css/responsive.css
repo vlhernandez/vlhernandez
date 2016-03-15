@@ -3,6 +3,7 @@
 .row {
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 
  /*for desktop */
@@ -32,6 +33,7 @@
 
   .col {
     flex: 1 200px;
+    margin: 5px;
   }
 
 }
