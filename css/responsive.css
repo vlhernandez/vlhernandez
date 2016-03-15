@@ -5,10 +5,33 @@
     flex-direction: column;
 }
 
-/* for desktop */
-@media screen and (min-width: 768px) {
+ /*for desktop */
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.5em; /* 28px */
+    margin: 0;
+  }
+
+  .tagline {
+    font-size: 2em;
+  }
+
+  .post-title {
+    font-size: 1.5em;
+  }
+
+  .post-excerpt,
+  .post-content {
+    font-size: 1.15em;
+  }
+
   .row {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
+
+  .col {
+    flex: 1 200px;
+  }
+
 }

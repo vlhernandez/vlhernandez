@@ -2,15 +2,20 @@
   GENERAL
 **********************************/
 body {
-  font-family: Muli, Garamond, "Times New Roman", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 1em;
+  font-size: 16px;
+  font-weight: 300;
   color: #222;
 }
 
 h2 {
-  font-size: 1.5em; /* 28px */
+  /*font-size: 1.2em;*/
+  margin: 0;
+}
+
+h4 {
   margin: 0;
 }
 
@@ -66,7 +71,6 @@ img {
 /**********************************
   HEADER
 **********************************/
-header,
 .page-content {
   margin-top: 5%;
   margin-bottom: 0;
@@ -84,7 +88,7 @@ header,
 
 .tagline {
   font-family: Lato;
-  font-size: 2em;  /* 23px */
+  font-size: .9em;
   font-weight: 300;
   letter-spacing: .8px;
   text-align: center;
@@ -98,9 +102,9 @@ header,
 nav ul,
 footer ul {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 10px 0;
   display: table;
-  border-spacing: 33.333% 10px;
+  border-spacing: 30% 10px;
 }
 
 nav li,
@@ -112,7 +116,7 @@ nav a {
   text-align: center;
   font-size: .813em; /*13px*/
   letter-spacing: 1.25px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 15px 10px;
 }
 
@@ -138,30 +142,33 @@ nav a {
 /**********************************
   POSTS
 **********************************/
-article .post-header .post-content,
-
+article .post-content,
 .post-list li {
   margin-bottom: 6%;
 }
 
 .post-link,
 .post-title {
-  font-weight:300;
+  font-weight: 400;
+  font-size: 1em;
 }
 
 .post-meta {
   color: #9c9c9c;
   font-size: .75em;
+  font-weight: 400;
 }
 
 .post-excerpt,
 .post-content {
   line-height: 1.5;
-  font-size: 1.15em;
+  font-size: .9em;
   margin-bottom: 10px;
 }
 
-
+.post-image {
+  margin: 1em;
+}
 
 /**********************************
   FOOTER

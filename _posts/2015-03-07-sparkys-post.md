@@ -2,7 +2,6 @@
 title: "Sparky Takes Over"
 author: Sparky Hernandez
 image: sparky.jpg
-excerpt: "This is a post where Sparky takes over!"
 ---
 
 "Will you walk a little faster?" said a whiting to a snail. "There's a porpoise close behind us, and he's treading on my tail.  See how eagerly the lobsters and the turtles all advance!
