@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-image: me.jpg
+image: /img/me.jpg
 ---
 
 Howdy,my name is Veronica, I make things.

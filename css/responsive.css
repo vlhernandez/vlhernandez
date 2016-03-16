@@ -6,6 +6,36 @@
     padding: 5px;
 }
 
+.gallery  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-entry {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.gallery-entry-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: solid #9c9c9c 1px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.gallery-entry-content a {
+  flex: 1 0 auto;
+}
+
+.gallery-entry-content p {
+  margin: 1em;
+}
+
+
+
  /*for desktop */
 @media only screen and (min-width: 768px) {
   h2 {
@@ -36,4 +66,7 @@
     margin: 5px;
   }
 
+  .gallery-entry {
+    width: 33.33%;
+  }
 }

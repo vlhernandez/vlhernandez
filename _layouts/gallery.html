@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<section>
-  <h2>Gallery</h2>
 
-  <p>Check out my project gallery below</p>
-</section>
-
-<ul>
+<ul class="gallery">
   {% for post in site.posts %}
 
-  <li>
-    <a href="{{ post.url }}"><img src="{{ post.image }}" />
-      <caption>{{ post.title }}</caption>
-    </a>
+  <li class="gallery-entry">
+    <div class="gallery-entry-content">
+      <a href="{{ post.url }}">
+        <img src="{{ post.image }}" />
+      </a>
+      <p class="gallery-caption">{{ post.title }}</p>
+    </div>
   </li>
 
   {% endfor %}
