@@ -61,8 +61,14 @@
     align-items: flex-start;
   }
 
-  .col {
-    flex: 1 200px;
+  .primary {
+    /*flex: 1 200px;*/
+    flex: 1;
+    margin: 5px;
+  }
+  .secondary {
+    /*flex: 1 200px;*/
+    flex: 2;
     margin: 5px;
   }
 
