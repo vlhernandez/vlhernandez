@@ -15,9 +15,8 @@ layout: default
       {% endif %}
     </span>
   </header>
-
   {% if page.image %}
-    <img class="post-image" src="/img/{{ page.image }}"> <!-- display page specific image -->
+    <img class="post-image" src="{{ page.image }}"> <!-- display page specific image -->
   {% endif %}
 
   <div class="post-content" itemprop="articleBody">

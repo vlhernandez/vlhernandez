@@ -12,6 +12,9 @@
       <h3 class="tagline" href="{{ site.baseurl }}/">{{ site.description }}</h3>
     <nav>
       <ul>
+        <li {% if location == '' %} class="nav-item nav-item-current" {% else %} class="nav-item" {% endif %}>
+          <a href="/">HOME</a>
+        </li>
         {% for page in site.pages %}
           <!-- Compare the page title to the URL -->
           {% assign current = page.title | downcase %}
