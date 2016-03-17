@@ -51,6 +51,7 @@ a:hover {
 
 .wrapper {
   max-width: 1050px;
+  min-width: 320px;
   width: 92%;
   margin: 0 auto;
   padding: 0 5%;
@@ -177,9 +178,17 @@ article .post-content,
   margin-bottom: 10px;
 }
 
-.post-image {
-  margin: 1em;
+/*.post-image {
+  padding: 1em;
+}*/
+
+.col-content {
+  background: whitesmoke;
+  padding: 1em;
 }
+
+
+
 
 /**********************************
   FOOTER
@@ -199,5 +208,6 @@ footer a {
 .site {
   display: flex;
   min-height: 96vh;
+  min-width: 320px;
   flex-direction: column;
 }

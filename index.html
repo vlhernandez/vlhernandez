@@ -7,25 +7,29 @@ layout: default
   {% for post in paginator.posts %}
   <li class="row">
       <div class="primary col">
-          <h4 class="post-title">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h4>
-          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-          <span class="post-excerpt">{{ post.excerpt }}</span>
-          {% capture content_words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
-          {% capture excerpt_words %}
-            {{ post.excerpt | number_of_words }}
-          {% endcapture %}
-          <!-- {% if excerpt_words != content_words %}
-            <span class="btn"><a href="{{ post.url | prepend: site.baseurl }}/#read-more">[ Continue Reading ]</a></span>
-          {% endif %} -->
+        <div class="col-content">
+            <h4 class="post-title">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h4>
+            <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+            <span class="post-excerpt">{{ post.excerpt }}</span>
+            {% capture content_words %}
+              {{ post.content | number_of_words }}
+            {% endcapture %}
+            {% capture excerpt_words %}
+              {{ post.excerpt | number_of_words }}
+            {% endcapture %}
+            <!-- {% if excerpt_words != content_words %}
+              <span class="btn"><a href="{{ post.url | prepend: site.baseurl }}/#read-more">[ Continue Reading ]</a></span>
+            {% endif %} -->
+        </div>
       </div>
       <div class="secondary col">
-        {% if post.image %}
-          <img class="post-image" src="{{ post.image }}">
-        {% endif %}
+        <div class="col-content">
+          {% if post.image %}
+            <img class="post-image" src="{{ post.image }}">
+          {% endif %}
+        </div>
       </div>
     </li>
   {% endfor %}
