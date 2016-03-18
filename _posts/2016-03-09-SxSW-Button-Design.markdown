@@ -1,7 +1,8 @@
 ---
-title: "Texas State University Forensic Anthropological Society"
-author: Sparky Hernandez
-image: /img/TexasState-ForensicAnthropologySociety.jpg
+title:  "SxSW Button Design"
+date:   2016-03-07 11:16:01
+categories: learning
+image: /img/SxSW_buttons.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam libero nisi, pellentesque sed metus sed, fermentum iaculis augue. Quisque eleifend rhoncus enim quis pretium. Integer vulputate dolor arcu, eget auctor dolor imperdiet sed. Nunc commodo tincidunt nisl sed euismod. In eu sagittis augue. Duis egestas ligula sit amet condimentum finibus..

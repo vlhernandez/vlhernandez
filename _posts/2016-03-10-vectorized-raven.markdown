@@ -1,7 +1,7 @@
 ---
-title: "Texas State University Forensic Anthropological Society"
-author: Sparky Hernandez
-image: /img/TexasState-ForensicAnthropologySociety.jpg
+title: "'Vectorized' Raven"
+categories: learning
+image: /img/raven-vector_8x6.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam libero nisi, pellentesque sed metus sed, fermentum iaculis augue. Quisque eleifend rhoncus enim quis pretium. Integer vulputate dolor arcu, eget auctor dolor imperdiet sed. Nunc commodo tincidunt nisl sed euismod. In eu sagittis augue. Duis egestas ligula sit amet condimentum finibus..

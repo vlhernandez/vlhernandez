@@ -277,8 +277,11 @@
   }
 
   .gallery-entry-content p {
+    border-top: 4px double #9c9c9c;
     margin: 1em;
-    border-top: double #9c9c9c 1px;
+    margin-top: 0;
+    padding-top: 1em;
+    text-align: center;
   }
 
 
