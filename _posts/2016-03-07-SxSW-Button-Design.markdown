@@ -1,8 +1,8 @@
 ---
-title:  "The War of the Worlds Book I"
+title:  "SxSW Button Design"
 date:   2016-03-07 11:16:01
 categories: learning
-image: /img/me.jpg
+image: /img/SxSW_buttons.jpg
 ---
 
 "The sojers'll stop 'em," said a woman beside me, doubtfully.  A haziness rose over the treetops. Then suddenly we saw a rush of smoke far away up the river, a puff of smoke that jerked up into the air and hung; and forthwith the ground heaved under foot and a heavy explosion shook the air, smashing two or three windows in the houses near, and leaving us astonished. "Here they are!" shouted a man in a blue jersey.
