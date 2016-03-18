@@ -1,213 +1,359 @@
-/**********************************
-  GENERAL
-**********************************/
-* {
-  box-sizing: border-box;
-}
+/* ==========================================================================
+    General
+   ========================================================================== */
 
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-weight: 300;
-  color: #222;
-}
+  html {
+    box-sizing: border-box;
+  }
 
-h2 {
-  /*font-size: 1.2em;*/
-  margin: 0;
-}
+  body {
+    color: #222;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+  }
 
-h4 {
-  margin: 0;
-}
+  h2,
+  h4,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
+  h4 {
+    font-size: 1.323em;
+  }
 
-li {
-  list-style: none;
-}
+  li {
+    list-style: none;
+  }
 
-a {
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
-a:link {
-   color: #444;
-}
+  a:link {
+     color: #444;
+  }
 
-a:visited {
-   text-decoration: none;
-   color: #444;
-}
+  a:visited {
+     text-decoration: none;
+     color: #444;
+  }
 
-a:hover {
-  color: #40c4e0;
-}
+  a:hover {
+    color: #40c4e0;
+  }
 
-.wrapper {
-  max-width: 1050px;
-  min-width: 320px;
-  width: 92%;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
-.page-content {
-  flex: 1;
-}
-
-img {
-  max-width: 100%;
-}
-
-.btn {
-  background-color: white;
-  border: none;
-  margin-top: 0;
-  font-size: .8em;
-}
+  img {
+    max-width: 100%;
+  }
 
 
 
-/**********************************
-  HEADER
-**********************************/
-.page-content {
-  margin-top: 5%;
-  margin-bottom: 0;
-}
+/* ==========================================================================
+    Layout
+   ========================================================================== */
 
-.logo {
-  text-align: center;
-  cursor: pointer;
-  margin: 0;
-}
+  /* flex containers */
+  .col.secondary,
+  .gallery,
+  .gallery-entry,
+  .gallery-entry-content,
+  .post-list,
+  .page-container,
+  .row,
+  .site,
+  nav ul,
+  footer ul {
+    display: flex;
+  }
 
-.logo img {
-  width: 50px;
-}
+  .page-container,
+  .row,
+  .site {
+    flex-direction: column;
+  }
 
-.tagline {
-  font-family: Lato;
-  font-size: .9em;
-  font-weight: 300;
-  letter-spacing: .8px;
-  text-align: center;
-  margin: 5% auto;
-  color: #848484;
-}
+  .site {
+    margin: 0 auto;
+    max-width: 1050px;
+    min-height: 96vh;
+    min-width: 320px;
+  }
 
-/**********************************
-  NAVIGATION
-**********************************/
-nav ul,
-footer ul {
-  margin: 0 auto;
-  padding: 0 0 10px 0;
-  display: table;
-  border-spacing: 30px 0;
-}
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1050px;
+    /*padding: 0 5%;*/
+    width: 92%;
+  }
 
-nav li,
-footer li {
-  display: table-cell;
-}
-
-nav a {
-  text-align: center;
-  font-size: .9em; /*13px*/
-  letter-spacing: 1.25px;
-  font-weight: 600;
-  padding: 15px 10px;
-}
-
-.nav-item-current {
-  border-bottom: solid 2px #40c4e0;
-}
-
-.nav-item-current a {
-  color: #9c9c9c;
-}
+  /* grow page-content to take all available space makes the footer stay at the bottom */
+  .page-content {
+    flex: 1;
+    margin-top: 5%;
+  }
 
 
 
-/**********************************
-  PAGE
-**********************************/
-.pagination {
-  text-align: center;
-  margin: 10% auto;
-}
+/* ==========================================================================
+    Pagination
+   ========================================================================== */
+  .pagination {
+    text-align: center;
+    margin: 8% auto;
+    font-weight: 400;
+    border-bottom: #9c9c9c dotted 1px;
+    border-top: #9c9c9c dotted 1px;
+    padding: 14px 0;
+  }
+
+  .pagination > a,
+  .pagination span,
+  .pagination em {
+    margin: 0 10px;
+  }
+
+  .pagination em {
+    color: #40c4e0;
+  }
+
+  .pagination span {
+    color: #9c9c9c;
+  }
 
 
-.page-image {
-  border-radius: 3px;
-}
+/* ==========================================================================
+    Header
+   ========================================================================== */
 
+  .logo {
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+  }
 
-/**********************************
-  POSTS
-**********************************/
-article .post-content,
-.post-list li {
-  margin-bottom: 6%;
-}
+  .logo img {
+    width: 50px;
+  }
 
-.post-link,
-.post-title {
-  font-weight: 400;
-  font-size: 1.15em;
-}
-
-.post-meta {
-  color: #9c9c9c;
-  font-size: .75em;
-  font-weight: 400;
-}
-
-.post-excerpt,
-.post-content,
-.page-text {
-  line-height: 1.5;
-  font-size: 1.15em;
-  margin-bottom: 10px;
-}
-
-/*.post-image {
-  padding: 1em;
-}*/
-
-.col-content {
-  background: whitesmoke;
-  padding: 1em;
-}
+  .tagline {
+    color: #848484;
+    font-family: Lato;
+    font-size: .9em;
+    font-weight: 300;
+    letter-spacing: .8px;
+    margin: 5% auto;
+    text-align: center;
+  }
 
 
 
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
 
-/**********************************
-  FOOTER
-**********************************/
+  nav ul,
+  footer ul {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  nav li,
+  footer li {
+    margin: 0 1%;
+  }
+
+  nav a {
+    font-size: .9em;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .nav-item-current {
+    border-bottom: solid 2px #40c4e0;
+  }
+
+  .nav-item-current a {
+    color: #9c9c9c;
+  }
+
+
+
+/* ==========================================================================
+  Posts
+  ========================================================================== */
+
+  .post-list {
+    flex-direction: column;
+  }
+
+  .post-list,
+  .row {
+      padding: 5px;
+  }
+
+  .post {
+    padding: 1em;
+  }
+
+  .post-content,
+  .post-list li {
+    margin-bottom: 6%;
+  }
+
+  .post-link,
+  .post-title {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  .post-header {
+    padding-bottom: 1em;
+  }
+
+  .post-meta {
+    color: #9c9c9c;
+    font-size: .75em;
+    font-weight: 400;
+  }
+
+  .post-excerpt,
+  .post-content,
+  .page-body {
+    margin-bottom: 10px;
+  }
+
+  .page-container {
+    padding: 1em;
+  }
+  .col-content {
+    padding: 1em;
+  }
+  .secondary.col {
+    background: whitesmoke;
+  }
+
+  /*.col-content {
+    background: whitesmoke;
+    padding: 1em;
+  }*/
+
+
+/* ==========================================================================
+  Gallery
+  ========================================================================== */
+
+  .col.secondary {
+    justify-content: center;
+  }
+
+  .gallery  {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-entry {  /* flex-item to make equal height */
+    padding: 0.5em;
+    width: 100%;
+  }
+
+  .gallery-entry-content {
+    border: solid #9c9c9c 1px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .gallery-entry-content a {
+    flex: 1 0 auto;
+  }
+
+  .gallery-entry-content p {
+    margin: 1em;
+    border-top: double #9c9c9c 1px;
+  }
+
+
+
+/* ==========================================================================
+  Footer
+  ========================================================================== */
+
 footer a {
-  text-align: center;
-  font-size: 1.25em; /*20px*/
-  letter-spacing: 1.25px;
+  font-size: 1.25em;
   font-weight: 300;
+  letter-spacing: 1.25px;
   padding: 15px 10px;
+  text-align: center;
 }
 
 .icon {
   color: #2290A7;
 }
 
-.site {
-  display: flex;
-  min-height: 96vh;
-  min-width: 320px;
-  flex-direction: column;
+
+
+
+
+ /* for tablet */
+@media only screen and (min-width: 768px) {
+  .tagline {
+    font-size: 1.25em;
+  }
+
+  .post-title {
+    font-size: 1.25em;
+  }
+
+  .post-excerpt,
+  .post-content,
+  .page-body {
+    font-size: 1.15em;
+  }
+
+  .row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .primary {
+    /*flex: 1 200px;*/
+    flex: 1;
+    margin: 5px;
+  }
+  .secondary {
+    /*flex: 1 200px;*/
+    flex: 2;
+    margin: 5px;
+  }
+
+  .gallery-entry {
+    width: 45%;
+  }
+
+
+}
+
+
+/* for desktop */
+@media only screen and (min-width: 1024px) {
+  .tagline {
+    font-size: 2em;
+  }
+
+  .post-title {
+    font-size: 1.5em;
+  }
+
+  .gallery-entry {
+    width: 30%;
+  }
 }

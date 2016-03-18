@@ -4,7 +4,7 @@ permalink: /about/
 image: /img/me.jpg
 ---
 
-Howdy,my name is Veronica, I make things.
+Howdy, my name is Veronica, I make things.
 
 I am an artist & developer who enjoys integrating the creative analog world of pencil and paper with the digital world. In addition to creating in the tech world, I enjoy sewing and dabble a bit with knitting.
 

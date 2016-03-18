@@ -3,17 +3,13 @@ layout: default
 ---
 <article class="page">
 
-  <!-- <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
-  </header> -->
-
-  <div class="page-container row">
+  <div class="page-container">
     {% if page.image %}
-      <div class="page-image col">
+      <div class="page-image">
         <img class="page-image" src="{{ page.image }}"> <!-- display page specific image -->
       </div>
     {% endif %}
-    <div class="page-text col">
+    <div class="page-body">
       {{ content }}
     </div>
   </div>
