@@ -294,6 +294,13 @@
     Resume
   ========================================================================== */
 
+  div.resume {
+    background-color: white;
+    padding: .5em;
+    margin: 1em 0;
+    border: 2px solid #eee;
+  }
+
   .resume section {
     margin: 1.5em 1em;
   }
@@ -337,24 +344,33 @@
     display: none;
   }
 
+  .job-dates {
+    font-weight: 400;
+    font-size: 1.15em;
+  }
+
   .job-dates.mobile {
     display: initial;
     color: #40c4e0;
-    font-weight: 400;
     margin: 0 0 1em 0;
   }
 
 
-
-  .company {
-    margin: 0 0 .5em 0;
+  .company,
+  .education h5 {
+    margin: 0 0 .25em 0;
     font-weight: 400;
   }
 
   .job-title {
     margin: 0;
+    font-style: italic;
+    font-size: 1.15em;
   }
 
+  .education p {
+    margin: 0;
+  }
 
 /* ==========================================================================
   Footer
@@ -429,4 +445,17 @@ footer a {
   .gallery-entry {
     width: 30%;
   }
+
+
+  /* resume */
+  .job-dates,
+  .job-location,
+  .job-description {
+    display: initial;
+  }
+
+  .job-dates.mobile {
+    display: none;
+  }
+
 }
