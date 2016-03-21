@@ -27,6 +27,10 @@
     font-size: 1.323em;
   }
 
+  h5 {
+    font-size: 1.25em;
+  }
+
   li {
     list-style: none;
   }
@@ -284,6 +288,72 @@
     text-align: center;
   }
 
+
+
+/* ==========================================================================
+    Resume
+  ========================================================================== */
+
+  .resume section {
+    margin: 1.5em 1em;
+  }
+
+  .resume-header {
+    text-align: center;
+  }
+
+  .resume-header h5 {
+    font-weight: normal;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .resume-header h4 {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+
+  .resume-header p {
+    margin: 0em;
+    margin-bottom: .55em;
+    color: #9c9c9c;
+    font-size: .85em;
+  }
+
+  .objective h4,
+  .experience h4,
+  .education h4,
+  .skills h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #40c4e0;
+    margin: 0 0 1em 0;
+  }
+
+
+  .job-dates,
+  .job-location,
+  .job-description {
+    display: none;
+  }
+
+  .job-dates.mobile {
+    display: initial;
+    color: #40c4e0;
+    font-weight: 400;
+    margin: 0 0 1em 0;
+  }
+
+
+
+  .company {
+    margin: 0 0 .5em 0;
+    font-weight: 400;
+  }
+
+  .job-title {
+    margin: 0;
+  }
 
 
 /* ==========================================================================
