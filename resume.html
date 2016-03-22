@@ -8,14 +8,16 @@ permalink: /resume/
   <section class="resume-header">
     <div class="resume-name resume-title">
       <h4>Veronica Hernandez</h4>
-      <h5>Artist | Developer</h5>
+      <h5>Artist | Web Developer</h5>
     </div>
     <div class="resume-contact">
-      <p class="resume-email">{{ site.email }}</p>
-      <a href="{{ site.url }}" class="resume-website">www.vlhernandez.com
-     </a>
+      <ul>
+        <li class="resume-email">{{ site.email }}</li>
+        <li><a href="{{ site.url }}" class="resume-website">www.vlhernandez.com</a></li>
+        <li><a href="https://github.com/{{ site.github_username }}" class="resume-github">github.com/{{ site.github_username }}</a></li>
+      </ul>
     </div>
-    </section>
+  </section>
 
   <section class="objective">
     <h4>Objective</h4>
@@ -27,9 +29,29 @@ permalink: /resume/
     <div class="job">
         <div class="job-header">
             <div>
+              <p class="job-dates mobile">February 2014 - Present</p>
+              <h5 class="company">Self Employed</h5>
+              <p class="job-title">Independent Artist and Web Developer</p>
+            </div>
+            <div>
+              <p class="job-location">Austin, TX</p>
+              <p class="job-dates">February 2014 - Present</p>
+            </div>
+        </div> <!-- job-header -->
+        <div class="job-excerpt">
+          <p>Design and development of logos, assets, websites.
+          </p>
+        </div>
+        <div class="job-description">
+          <p>This is the job description</p>
+        </div>
+    </div>
+    <div class="job">
+        <div class="job-header">
+            <div>
               <p class="job-dates mobile">March 2013 - February 2014</p>
               <h5 class="company">Dell, Inc</h5>
-              <p class="job-title">PCIe and NVMe Solid State Drive Development Engineer</p>
+              <p class="job-title">PCIe and NVMe Solid State Device Development Engineer</p>
             </div>
             <div>
               <p class="job-location">Austin, TX</p>
@@ -37,12 +59,15 @@ permalink: /resume/
             </div>
         </div> <!-- job-header -->
         <div class="job-excerpt">
-          <p></p>
+          <p>Responsible for providing technical contribution to the NVMe and PCIe specification; to development of the storage solution and for debug of interactions through the PCIe SSD device up to the OS code stack.
+          </p>
+          <p>Design and development with storage solutions in multiple implementations: driver based, embedded, PCI adapter, external controller.
+          </p>
         </div>
         <div class="job-description">
           <p>This is the job description</p>
         </div>
-        </div>
+    </div>
 
     <div class="job">
         <div class="job-header">
@@ -57,13 +82,10 @@ permalink: /resume/
             </div>
         </div> <!-- job-header -->
         <div class="job-excerpt">
-          <p>Senior engineer on team to deliver multiple Storage NAS products delivering $100M+ of products revenue.
-            Directly oversee test engineers to drive unit test and schedules to meet time to market requirements.  Manage and coordinate cross-functional teams of Engineering, Marketing, Supply Chain, and Services.  Manage and worked with partners, OEMs and vendors globally.
-
-            Storage developement level 5 support (sustaining) regarding all aspects of the Dell Fluid Filesystem, (A NAS solution consisting of a complex, scalable, high availability, highly redundant, global namespace. Primary protocols are CIFS and NFS.).
-
-            Developed test
-schedules, executed test cases, software evaluation, troubleshooting software and hardware, failure analysis, product documentation, redesign and re-work of Dell's PowerVault and EqualLogic NAS products.</p>
+          <p>Senior engineer focused on driving unit test and schedules to meet time to market requirements. Coordinated cross-functional teams of Engineering, Marketing, Supply Chain, and Services.
+          </p>
+          <p>Developed test schedules, executed test cases, software evaluation, troubleshooting of software and hardware, failure analysis, product documentation, redesign and re-work of Dell's PowerVault and EqualLogic NAS products.
+          </p>
         </div>
         <div class="job-description">
           <p>This is the job description</p>
@@ -83,7 +105,7 @@ schedules, executed test cases, software evaluation, troubleshooting software an
             </div>
         </div> <!-- job-header -->
         <div class="job-excerpt">
-          <p>Helped to expand, enhance, and maintain Driver Validation System (DVS) automated.  Responsibilities included triage of regressions found by DVS, machine and lab setup and
+          <p>Helped to expand, enhance, and maintain Driver Validation System (DVS) automated regression lab.  Responsibilities included triage of regressions found by DVS, machine and lab setup and
 maintenance. Explored methods for reducing machine down time, automating maintenance, and
 eliminating false regressions.
 </p>
@@ -144,7 +166,13 @@ eliminating false regressions.
   </section>
 
   <section class="skills">
-    <h4>Skills</h4>
+    <h4>Technical Skills</h4>
+    <p>
+       <strong>Strong: </strong>Adobe Suite: Illustrator, InDesign, LightRoom; JavaScript, HTML, CSS, jQuery
+    </p>
+    <p>
+      <strong>Experienced:</strong> Photoshop, AngularJS, Node.js/Express, MongoDb, D3.js, MySQL
+    </p>
   </section>
 
 </div>

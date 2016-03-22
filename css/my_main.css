@@ -320,11 +320,8 @@
     letter-spacing: .15em;
   }
 
-  .resume-header p {
-    margin: 0em;
-    margin-bottom: .55em;
-    color: #9c9c9c;
-    font-size: .85em;
+  .resume-contact {
+    display: none;
   }
 
   .objective h4,
@@ -428,6 +425,18 @@ footer a {
     width: 45%;
   }
 
+  .resume-contact {
+    display: initial;
+    margin: 0em;
+    margin-bottom: .55em;
+    font-size: .85em;
+    line-height: 1.5em;
+  }
+
+  .resume-contact li, 
+  .resume-contact a {
+    color: #9c9c9c;
+  }
 
 }
 
