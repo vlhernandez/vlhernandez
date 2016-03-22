@@ -335,21 +335,17 @@
   }
 
 
-  .job-dates,
   .job-location,
   .job-description {
     display: none;
   }
 
   .job-dates {
-    font-weight: 400;
-    font-size: 1.15em;
-  }
-
-  .job-dates.mobile {
-    display: initial;
+    display: inline;
     color: #40c4e0;
     margin: 0 0 1em 0;
+    font-weight: 400;
+    font-size: 1.15em;
   }
 
 
@@ -433,7 +429,7 @@ footer a {
     line-height: 1.5em;
   }
 
-  .resume-contact li, 
+  .resume-contact li,
   .resume-contact a {
     color: #9c9c9c;
   }
@@ -460,11 +456,37 @@ footer a {
   .job-dates,
   .job-location,
   .job-description {
-    display: initial;
+    display: block;
   }
 
-  .job-dates.mobile {
-    display: none;
+  .right-col,
+  .left-col {
+    display: inline-block;
+    width: 50%;
   }
 
+  .right-col {
+    float: right;
+    text-align: right;
+  }
+
+  .job-dates,
+  .company {
+    margin: 0 0 .5em 0;
+    color: #222;
+  }
+
+  .job-location {
+    margin: 0;
+  }
+
+  .job-description li {
+    list-style-type: disc;
+    margin-left: 3%;
+    margin-bottom: 2%
+  }
+
+  .job-header {
+    margin-top: 5%;
+  }
 }
