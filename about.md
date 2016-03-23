@@ -10,4 +10,4 @@ I am an artist & developer who enjoys integrating the creative analog world of p
 
 This is my personal website where I intend to document all the projects I work on analog and digital.
 
-Above all, I find the greatest joy in making things.
+{{ resume.html | prepend:site.url/ }}

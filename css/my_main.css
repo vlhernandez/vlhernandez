@@ -17,9 +17,13 @@
   }
 
   h2,
-  h4,
-  ul {
+  h4 {
     margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    margin: 1em 0;
     padding: 0;
   }
 
@@ -331,7 +335,7 @@
     text-transform: uppercase;
     font-weight: 600;
     color: #40c4e0;
-    margin: 0 0 1em 0;
+    margin: 5% 0 3% 0;
   }
 
 
@@ -363,6 +367,10 @@
 
   .education p {
     margin: 0;
+  }
+
+  .emphasis {
+    font-weight: 400;
   }
 
 /* ==========================================================================
