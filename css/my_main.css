@@ -11,7 +11,7 @@
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.25;
+    line-height: 1.65;
     margin: 0;
     padding: 0;
   }
@@ -453,6 +453,10 @@ footer a {
   .page-body {
     flex: 3;
     margin-left: 1.5em;
+  }
+
+  .page-body p:first-child {
+    margin-top: 0;
   }
 }
 
