@@ -392,7 +392,6 @@ footer a {
 
 
 
-
  /* for tablet */
 @media only screen and (min-width: 768px) {
   .tagline {
@@ -431,7 +430,7 @@ footer a {
 
   .resume-contact {
     display: initial;
-    margin: 0em;
+    margin: 0;
     margin-bottom: .55em;
     font-size: .85em;
     line-height: 1.5em;
@@ -442,7 +441,21 @@ footer a {
     color: #9c9c9c;
   }
 
+  /* about page */
+  .page-container {
+    flex-direction: row;
+  }
+
+  .page-image {
+    flex: 2;
+  }
+
+  .page-body {
+    flex: 3;
+    margin-left: 1.5em;
+  }
 }
+
 
 
 /* for desktop */
@@ -497,4 +510,6 @@ footer a {
   .job-header {
     margin-top: 5%;
   }
+
+
 }
