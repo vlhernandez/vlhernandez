@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "I Made This!"
+category: "web-design"
 image: /img/made_this_site.jpg
 ---
 
