@@ -1,6 +1,6 @@
 ---
 title: "Texas State University Forensic Anthropological Society"
-author: Sparky Hernandez
+author: Veronica Hernandez
 image: /img/TexasState-ForensicAnthropologySociety.jpg
 ---
 
