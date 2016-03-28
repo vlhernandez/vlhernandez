@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-image: /img/me_cropped.jpg
+image: /img/me.jpg
 ---
 
 Howdy!

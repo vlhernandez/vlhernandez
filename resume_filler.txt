@@ -1,0 +1,10 @@
+DELL
+
+
+Dell Fluid Filesystem, (A NAS solution consisting of a complex, scalable, high availability, highly redundant, global namespace. Primary protocols are CIFS and NFS.).
+
+Developed test schedules, executed test cases, software evaluation, troubleshooting software and hardware, failure analysis, product documentation, redesign and re-work of Dell's PowerVault and EqualLogic NAS products.</p>
+
+
+<li>Developed, tested and sustained NAS products through product end of life. Developed test plans and communicated results, analysis, and unresolved problems to senior management. Documented test procedures for internal and external test teams throughout the NAS product life cycle.
+</li>

@@ -1,9 +1,9 @@
 ---
-title: "'Vectorized' Raven"
-categories: learning
-image: /img/raven-vector_8x6.jpg
+title:  "Chocolate Package Design"
+date:   2016-03-08 10:16:01 -0600
+categories: package design
+image: /img/Choco_Pack.jpg
 ---
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam libero nisi, pellentesque sed metus sed, fermentum iaculis augue. Quisque eleifend rhoncus enim quis pretium. Integer vulputate dolor arcu, eget auctor dolor imperdiet sed. Nunc commodo tincidunt nisl sed euismod. In eu sagittis augue. Duis egestas ligula sit amet condimentum finibus..
 
 Curabitur aliquet, purus nec eleifend elementum, est nunc faucibus mauris, vel hendrerit risus ex ac risus. Pellentesque non velit justo. Mauris elementum rhoncus felis quis pellentesque. Pellentesque lectus arcu, tincidunt in condimentum ut, scelerisque sed nisi. Pellentesque ac tempor orci, eget faucibus neque. Suspendisse turpis libero, commodo at enim eu, interdum iaculis nisl. Integer efficitur, urna non egestas tempus, augue justo iaculis purus, nec tempus dolor massa vitae turpis. Cras lorem nibh, tempus et finibus lacinia, semper sed diam. Integer quis enim leo. Nunc aliquet mi in tempor eleifend. Cras euismod nisi eget nisi varius luctus. Mauris cursus nunc sed ligula efficitur ornare. Nam hendrerit lectus nec dapibus interdum.
