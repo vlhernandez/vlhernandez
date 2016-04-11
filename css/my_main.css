@@ -35,7 +35,7 @@
     font-size: 1.25em;
   }
 
-  li {
+  ul li {
     list-style: none;
   }
 
@@ -58,6 +58,10 @@
 
   img {
     max-width: 100%;
+  }
+
+  .small-img {
+    max-width: 50%;
   }
 
   p a {
@@ -239,6 +243,10 @@
   .post-content,
   .page-body {
     margin-bottom: 10px;
+  }
+
+  .image-container {
+    text-align: center;
   }
 
   .page-container {
