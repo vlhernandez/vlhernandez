@@ -12,4 +12,4 @@ These are the two images he provided. Looking at all those curves, it sounded li
 
 Everyone always assumes you can just pop an image into Illustrator and the program will magically trace it into something that looks finalized. I've never seen auto-trace actually work, but then again I've never spent much time trying to get it to work.
 
-Instead, I took the pen tool and started drawing my curves.  There are several curves within the flames where I had to fight a strong urge to convert them into something more uniform. Since this was an image with strong significance for the owner I didn't want to alter it too much. I think I managed to keep the original essence of the original drawing.
+Instead, I took the pen tool and started drawing my curves.  There are several curves within the flames where I had to fight a strong urge to convert them into something more uniform. Since this was an image with strong significance for the owner I didn't want to alter it too much. I think I managed to keep the essence of the original drawing.
