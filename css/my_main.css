@@ -60,6 +60,10 @@
     max-width: 100%;
   }
 
+  .med-img {
+    max-width: 75%;
+  }
+
   .small-img {
     max-width: 50%;
   }
