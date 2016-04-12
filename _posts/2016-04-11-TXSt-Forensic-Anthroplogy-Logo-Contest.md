@@ -14,7 +14,7 @@ The Forensic Anthropological Society at Texas State University held a logo desig
 I spent some time [researching](http://www.txstate.edu/anthropology/facts/media.html) what forensic anthropologists do and their backgrounds.  I learned that several fields such as chemistry, mathematics, and even computer science all work together to analyze human remains.  One of the most fascinating things I learned is that Texas State University has a ranch, [Forensic Anthropology Research Center at Texas State (FACTS)](http://www.txstate.edu/anthropology/facts/), where researchers study the rate decomposition of donated human corpses. You can read more about the ranch in this Texas Tribune [article](https://www.texastribune.org/2015/07/25/slideshow-body-farm/).
 
 This was my submission:
-![FAS logo submission](/img/FAS_logo_submission.png)
+![FAS logo submission](/img/fas_submission.png)
 
 The following symbols are included in the logo:
 
