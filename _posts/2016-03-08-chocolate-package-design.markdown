@@ -2,7 +2,7 @@
 title:  "Chocolate Company, Naming & Packaging Design"
 date:   2016-03-08 10:16:01 -0600
 categories: package design
-image: /img/choco_pack.jpg
+image: /img/choco.jpg
 ---
 
 The objective of this project was to create a product name, logo and packaging for 3 types of chocolate, white, milk and dark chocolate.
