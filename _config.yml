@@ -8,13 +8,12 @@
 # Site settings
 title: Veronica Hernandez
 email: vlhernandez@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Design, Portfolio and Fun Projects of Veronica Hernandez
+description: Design, Portfolio and Fun Projects of Veronica Hernandez
 url: "http://vlhernandez.com" # the base hostname & protocol for your site
 twitter_username: vlhernandez_
 github_username: vlhernandez
 instagram_username: vlhernandez_
-paginate: 3 
+paginate: 3
 # excerpt_separator: <!--more-->
 
 # Build settings
