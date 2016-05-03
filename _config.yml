@@ -14,6 +14,8 @@ twitter_username: vlhernandez_
 github_username: vlhernandez
 instagram_username: vlhernandez_
 paginate: 3
+site.imageW: 400
+site.imageH: 300
 # excerpt_separator: <!--more-->
 
 # Build settings
