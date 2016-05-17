@@ -15,6 +15,6 @@ I mistakenly kept trying to incorporate the Bookscribbles initials until I stepp
 
 ![thumbnail sketches](/img/bookscribbles_thumbs.jpg)
 
-One of the challenges with this project was developing something that would still be recognizable at a tiny 16x16 pixels.  One of the things I had to do often while working was zoom out and ensure I had included enough white space between each component of the logo. Otherwise, what looks great zoomed in on your monitor will turn into an unrecognizable blurry little blob when you it is displayed on the browser's tab (ask me how I know that).
+One of the challenges with this project was developing something that would still be recognizable at a tiny 16x16 pixels.  One of the things I had to do often while working was zoom out and ensure I had included enough white space between each component of the logo. Otherwise, what looks great zoomed in on your monitor will turn into an unrecognizable blurry little blob when it is displayed on the browser's tab (ask me how I know that).
 
 ![logo iterations](/img/bs_iterations-17.png).
