@@ -6,6 +6,8 @@ layout: default
   <div class="image-container">
     {% if page.image %}
       <img class="post-image" src="{{ page.image }}"> <!-- display page specific image -->
+    {% elsif page.video %}
+      <video src="{{ page.video }}" autoplay loop></video>
     {% endif %}
   </div>
 

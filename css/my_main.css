@@ -60,6 +60,10 @@
     max-width: 100%;
   }
 
+  video {
+    max-width: 100%;
+  }
+
   .med-img {
     max-width: 75%;
   }
@@ -299,6 +303,7 @@
 
   .gallery-entry-content a {
     flex: 1 0 auto;
+    margin: 1em;
   }
 
   .gallery-entry-content p {
