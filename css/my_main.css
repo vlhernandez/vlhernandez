@@ -33,6 +33,7 @@
 
   h5 {
     font-size: 1.25em;
+    font-weight: 400;
   }
 
   ul li {
@@ -272,6 +273,10 @@
     background: whitesmoke;
     padding: 1em;
   }*/
+
+  #style-details {
+    margin-bottom: 0;
+  }
 
 
 /* ==========================================================================
