@@ -10,7 +10,11 @@ layout: default
   <li class="gallery-entry">
     <div class="gallery-entry-content">
       <a href="{{ post.url }}">
-        <img src="{{ post.image }}" />
+        {% if post.image %}
+          <img src="{{ post.image }}" />
+        {% elsif post.video %}
+          <video src="{{ post.video }}" autoplay loop></video>
+        {% endif %}
       </a>
       <p class="gallery-caption">{{ post.title }}</p>
     </div>
