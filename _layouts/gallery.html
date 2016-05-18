@@ -12,8 +12,6 @@ layout: default
       <a href="{{ post.url }}">
         {% if post.image %}
           <img src="{{ post.image }}" />
-        {% elsif post.video %}
-          <video src="{{ post.video }}" autoplay></video>
         {% endif %}
       </a>
       <p class="gallery-caption">{{ post.title }}</p>
