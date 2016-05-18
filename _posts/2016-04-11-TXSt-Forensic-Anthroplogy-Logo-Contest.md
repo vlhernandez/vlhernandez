@@ -1,5 +1,6 @@
 ---
 title: "Texas State University Forensic Anthropological Society Logo Design Contest"
+gallery-caption: "Logo Design Contest"
 author: Veronica Hernandez
 image: /img/TexasState-ForensicAnthropologySociety.jpg
 ---

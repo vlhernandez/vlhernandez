@@ -1,5 +1,6 @@
 ---
-title:  "Chocolate Company, Naming & Packaging Design"
+title:  "Chocolate Branding & Package Design"
+gallery-caption: "Chocolate Branding"
 date:   2016-03-08 10:16:01 -0600
 categories: package design
 image: /img/choco.jpg
