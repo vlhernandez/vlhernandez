@@ -1,7 +1,7 @@
 ---
 title:  "Hangman Game"
 categories:
-video: /video/hangman.mp4
+image: /img/hangman.png
 ---
 
 I had a little downtime and decided to create a fun little project for myself, a hangman game!  I'll admit, I was inspired while watching an old episode of Homeland &mdash; morbid, I know.  Don't care how I made it? You can go straight to my project page to play a round of [hangman](http://vlhernandez.com/hangman/)! If you want to know how I made this continue reading!
