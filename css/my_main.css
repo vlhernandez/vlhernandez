@@ -544,3 +544,41 @@ footer a {
 
 
 }
+
+
+/* ==========================================================================
+  Always be learning
+========================================================================== */
+
+.i-got-skills {
+  font-size: 1.15em;
+  margin: 0 auto;
+  padding: 0 8%;
+}
+.i-got-skills h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.comfort {
+  color:#40c4e0;
+  font-size: 1.5em;
+}
+
+ul.skills {
+  margin: 0 0 1.25em;
+}
+
+.skills li {
+  display: inline;
+  padding-right: 1.5em;
+}
+
+.in-progress {
+  margin-right: .5em;
+}
+
+.need-more-skills span {
+  color: #D9D9D9;
+  margin-left: .75em;
+}
