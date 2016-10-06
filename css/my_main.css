@@ -358,7 +358,8 @@
   .objective h4,
   .experience h4,
   .education h4,
-  .skills h4 {
+  .skills h4,
+  .service h4 {
     text-transform: uppercase;
     font-weight: 600;
     color: #40c4e0;
@@ -532,7 +533,8 @@ footer a {
     margin: 0;
   }
 
-  .job-description li {
+  .job-description li,
+  .education li {
     list-style-type: disc;
     margin-left: 3%;
     margin-bottom: 2%
