@@ -402,9 +402,9 @@
     font-size: 1.15em;
   }
 
-
   .company,
-  .education h5 {
+  .education h5,
+  .service h5{
     margin: 0 0 .25em 0;
     font-weight: 400;
   }
@@ -415,12 +415,12 @@
     font-size: 1.15em;
   }
 
-  .education p {
-    margin: 0;
-  }
-
   .emphasis {
     font-weight: 400;
+  }
+
+  .education-item {
+    margin-bottom: 5%;
   }
 
   .edu-excerpt {
